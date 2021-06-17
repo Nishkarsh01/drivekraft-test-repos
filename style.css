@@ -380,8 +380,8 @@ a:active {
     font-weight: initial;
   }
 
-  .hero-content-overlay {
-    margin-top: 60% !important;
+  .hero-content-overlay .container .row .justify-content-center {
+    justify-content: flex-end !important;
   }
 
   .hero-content-overlay .none {
