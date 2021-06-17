@@ -10,12 +10,16 @@
 }
 
 /* main styling */
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
 body {
   color: var(--color-primary);
-  font-size: 16px;
+
   line-height: 1.8;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
 }
 
 ul li {
@@ -352,6 +356,31 @@ a:active {
   /* main styling */
   html {
     font-size: 14px;
+  }
+
+  /* site header */
+
+  .site-header .entry-header h1 {
+    font-size: 40px;
+  }
+
+  .site-header .entry-content h2 {
+    font-size: 40px;
+    font-size: 24px;
+  }
+
+  /* .hero-content-overlay > .container > .row > .justify-content-center {
+    justify-content: flex-end !important;
+  }
+  .hero-content-overlay > .container > .row > .align-items-start {
+    align-items: flex-end !important;
+  } */
+
+  .hero-content-overlay {
+    margin-top: 16% !important;
+  }
+  .none {
+    display: none;
   }
 
   /* sections */
@@ -978,7 +1007,6 @@ ul.tabs-nav .tab-nav.active {
   padding: 32px;
   border-radius: 20px;
   border: 2px solid #dde4ea;
-  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.637);
 }
 
 .opening-hours {
@@ -1041,7 +1069,6 @@ ul.tabs-nav .tab-nav.active {
 .emergency-box {
   padding: 16px;
   background: #ffffff;
-  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.637);
 }
 
 .emergency-box p {
@@ -1162,7 +1189,6 @@ ul.tabs-nav .tab-nav.active {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--color-secondary)', endColorstr='var(--color-secondary)', GradientType=1);
   /* ie6-9 */
   border-radius: 5px;
-  box-shadow: 30px 20px 20px rgba(0, 0, 0, 0.637);
 }
 
 @media screen and (max-width: 768px) {
