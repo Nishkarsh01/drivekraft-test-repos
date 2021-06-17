@@ -362,25 +362,29 @@ a:active {
 
   .site-header .entry-header h1 {
     font-size: 42px;
-    font-weight: bolder;
   }
 
   .site-header .entry-content h2 {
-  
+    font-size: 40px;
     font-size: 24px;
   }
 
-  /* .hero-content-overlay > .container > .row > .justify-content-center {
-    justify-content: flex-end !important;
+  .layer h1,
+  .layer h2 {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
   }
-  .hero-content-overlay > .container > .row > .align-items-start {
-    align-items: flex-end !important;
-  } */
+
+  .layer h2 {
+    font-weight: initial;
+  }
 
   .hero-content-overlay {
-    margin-top: 20% !important;
+    margin-top: 40% !important;
   }
-  .none {
+
+  .hero-content-overlay .none {
     display: none;
   }
 
