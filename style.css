@@ -103,7 +103,7 @@ a:active {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: var(--color-dark);
+  background: #262626;
   border-radius: 10px;
   opacity: 1;
   left: 0;
