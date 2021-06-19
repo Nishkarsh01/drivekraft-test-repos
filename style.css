@@ -110,7 +110,7 @@ a:active {
     opacity: 1;
   }
 
-  .hamburger-menu span {
+  .index .hamburger-menu span {
     background-color: #fff !important;
   }
 }
