@@ -87,11 +87,19 @@ a:active {
 
 /* site header  */
 @media screen and (max-width: 992px) {
+  .site-header.index {
+    height: 100vh !important;
+    box-sizing: border-box;
+  }
   #header-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url(./images/bg_4.jpg) !important;
     background-position: center center;
     background-size: cover;
+  }
+
+  .hero-content-overlay {
+    padding-bottom: 50px;
   }
   .hero-content-overlay h1 {
     color: #fff !important;
@@ -1170,7 +1178,7 @@ ul.tabs-nav .tab-nav.active {
   background: url(images/departments-bg.jpg) no-repeat;
   background-size: cover;
   backdrop-filter: blur(8px);
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .features-wrap {
