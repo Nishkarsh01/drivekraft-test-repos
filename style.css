@@ -85,35 +85,6 @@ a:active {
   margin-top: 6px;
 }
 
-/* site header  */
-@media screen and (max-width: 992px) {
-  .site-header.index {
-    box-sizing: border-box;
-  }
-  #header-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url(./images/bg_4.jpg) !important;
-    background-position: center center;
-    background-size: cover;
-  }
-
-  .hero-content-overlay {
-    padding-bottom: 50px;
-  }
-  .hero-content-overlay h1 {
-    color: #fff !important;
-  }
-
-  .hero-content-overlay h2 {
-    color: #fff !important;
-    opacity: 1;
-  }
-
-  .index .hamburger-menu span {
-    background-color: #fff !important;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .site-branding {
     width: auto;
@@ -388,6 +359,33 @@ a:active {
   }
 
   /* site header */
+
+  .site-header.index {
+    height: 100% !important;
+    box-sizing: border-box;
+  }
+  #header-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(./images/bg_4.jpg) !important;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .hero-content-overlay {
+    padding-bottom: 50px;
+  }
+  .hero-content-overlay h1 {
+    color: #fff !important;
+  }
+
+  .hero-content-overlay h2 {
+    color: #fff !important;
+    opacity: 1;
+  }
+
+  .index .hamburger-menu span {
+    background-color: #fff !important;
+  }
 
   .site-header .entry-header h1 {
     font-size: 42px;
