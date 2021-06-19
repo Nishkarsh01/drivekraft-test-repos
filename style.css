@@ -88,7 +88,6 @@ a:active {
 /* site header  */
 @media screen and (max-width: 992px) {
   .site-header.index {
-    height: 100vh !important;
     box-sizing: border-box;
   }
   #header-img {
