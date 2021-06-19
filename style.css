@@ -406,10 +406,6 @@ a:active {
     justify-content: flex-end !important;
   }
 
-  .hero-content-overlay {
-    padding-bottom: 20px;
-  }
-
   .hero-content-overlay .none {
     display: none;
   }
