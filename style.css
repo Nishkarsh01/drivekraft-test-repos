@@ -361,7 +361,7 @@ a:active {
   /* site header */
 
   .site-header.index {
-    height: 100% !important;
+    height: 100vh !important;
     box-sizing: border-box;
   }
   #header-img {
